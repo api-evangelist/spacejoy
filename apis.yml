@@ -1,7 +1,16 @@
 aid: spacejoy
 name: Spacejoy
-description: 'Spacejoy is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Spacejoy is an online interior design platform that pairs customers with
+  professional designers to reimagine their spaces. Users share a room photo and
+  requirements, then receive photo-realistic 3D renderings, curated furniture and
+  decor recommendations, and shoppable design boards that link directly to
+  retailers such as Wayfair, Article, Crate & Barrel, and CB2. The service covers
+  living rooms, bedrooms, dining rooms, home offices, nurseries, entryways, and
+  outdoor spaces, and operates an integrated storefront at shop.spacejoy.com plus
+  an iOS mobile app. Spacejoy is a direct-to-consumer design service with no
+  public developer program, API, or documentation surface as of this profile.
+  Originally added to the API Evangelist network as a portfolio company of Accel.
 url: https://raw.githubusercontent.com/api-evangelist/spacejoy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,29 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://ik.imagekit.io/spacejoy/e-com/logo/spj-logo.webp
 tags:
 - Company
 - Consumer
+- Interior Design
+- Home Decor
+- Furniture
+- E-Commerce
+- 3D Rendering
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spacejoy-domain-security.yml
 - type: Website
-  url: http://www.spacejoy.com
+  url: https://www.spacejoy.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
